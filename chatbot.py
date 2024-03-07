@@ -12,7 +12,7 @@ class response(BaseModel):
     reply:str
 
 import os
-os.environ['OPENAI_API_KEY']="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"#add ur openapi key from your account
+os.environ['OPENAI_API_KEY']="********"#add ur openapi key from your account
 from langchain.chat_models import ChatOpenAI
 from langchain.sql_database import SQLDatabase
 from langchain_experimental.sql import SQLDatabaseChain
